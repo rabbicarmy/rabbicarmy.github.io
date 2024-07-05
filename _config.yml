@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Rabbi Carmy"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Rabbi Carmy"
 description              : &description "personal description"
 url                      : https://rabbicarmy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -67,7 +67,7 @@ author:
   twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
-  wikipedia        : "wiki/Shalom_Carmy"
+  #wikipedia        : "wiki/Shalom_Carmy"
   xing             : # Username
   youtube          : # Username
   zhihu            : # URL
