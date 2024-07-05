@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : shalom_carmy.jpg
+  avatar           : shalom_carmy.png
   name             : "Rabbi Shalom Carmy"
   pronouns         : # example: "she/her"  
   bio              : "Rabbi Carmy is an expert on biblical theology and interpretation; modern Jewish thought (with an emphasis on Rabbis Soloveitchik and Kook); religious Zionism; liberal arts and religion; the interface of traditional Talmud study, modern scholarship, and theology; and the life of the thinking religious individual."
