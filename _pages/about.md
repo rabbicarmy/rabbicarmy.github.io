@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Birgraphy
+Biography
 ======
 [Rabbi Carmy]([https://pages.github.com/](https://en.wikipedia.org/wiki/Shalom_Carmy)) is an Assitant Professor of Jewish Philosophy and Bible at [Yeshiva University](https://www.yu.edu/faculty/pages/carmy-shalom), as well as a recognized expert on biblical theology and interpretation; modern Jewish thought (with an emphasis on Rabbis Soloveitchik and Kook); religious Zionism; liberal arts and religion; the interface of traditional Talmud study, modern scholarship, and theology; and the life of the thinking religious individual. 
 
