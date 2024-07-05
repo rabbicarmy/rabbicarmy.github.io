@@ -6,12 +6,33 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Biography
-======
+
 [Rabbi Carmy](https://en.wikipedia.org/wiki/Shalom_Carmy) is an Assitant Professor of Jewish Philosophy and Bible at [Yeshiva University](https://www.yu.edu/faculty/pages/carmy-shalom), as well as a recognized expert on biblical theology and interpretation; modern Jewish thought (with an emphasis on Rabbis Soloveitchik and Kook); religious Zionism; liberal arts and religion; the interface of traditional Talmud study, modern scholarship, and theology; and the life of the thinking religious individual. 
 
 He is a prominent Modern Orthodox theologian, historian, and philosopher. He received his B.A. in 1969 and M.S. from Yeshiva University, and received his rabbinic ordination from its affiliated Rabbi Isaac Elchanan Theological Seminary, studying under Rabbis Aharon Lichtenstein and Joseph Soloveitchik. He has edited some of R. Soloveitchik's work for publication. Carmy has written many articles on Biblical theology, Jewish thought, Orthodoxy in the 20th century and the role of liberal arts in a Torah education. He edited "Modern Scholarship in the Study of Torah: Contributions and Limitations", “Jewish Perspectives on the Experience of Suffering” as well as several other works. He writes a regular personal column in Tradition, and contributes regularly on Jewish and general subjects to First Things and other journals. In addition to his exegetical and analytic work, Carmy's theological contribution is distinguished by preoccupation with the way religious doctrine and practice express themselves in the life of the individual.
 
+Online Resources
+======
+
+Tradition
+------
+Rabbi Carmy has written many articles for [Tradition](https://traditiononline.org/), many of which have been collected into the ebook [Divrei Shalom](https://traditiononline.org/wp-content/uploads/2021/12/DivreiShalom2019a.pdf), and all of which can be found in the [Tradition archives](https://traditiononline.org/archives/?_sft_author=shalom-carmy).
+
+Other Articles Available Online
+------
+Rabbi Carmy has also authored many articles for [First Things](https://www.firstthings.com/featured-author/shalom-carmy), and many other articles can be found on the [Yeshiva Academic Institutional Repostitory](https://repository.yu.edu/search?spc.page=1&query=shalom%20carmy), The [Lehrhaus](https://thelehrhaus.com/author/shalom-carmy/), [Mosaic Magazine](https://mosaicmagazine.com/author/shalom-carmy/), [Jewish Review of Books](https://jewishreviewofbooks.com/authors/?a=shalom-carmy), [The Rohr JEWISH LEARNING INSTITUTE](https://lessons.myjli.com/why/index.php/2016/11/23/yet-my-soul-drew-back/), [The YU Commentator](https://yucommentator.org/author-posts/?author_id=UmFiYmkgU2hhbG9tIENhcm15), [Torah Musings](https://www.torahmusings.com/author/scarmy/), and [Atid](http://www.atid.org/resources/carmy/index.asp).
+
+YU Torah
+------
+Many of Rabbi Carmy's lectures can be found on [YUTorah](https://www.yutorah.org/teachers/Rabbi-Shalom-Carmy)
+
+Podcasts
+------
+Rabbi Carmy did a podcast with [18Forty](https://18forty.org/podcast/rabbi-shalom-carmy-how-i-ground-my-faith/), and another with [Tikvah](https://tikvahfund.org/library/podcast-shalom-carmy-on-jewish-understanding-of-human-suffering/).
+
 Personal Website and Blog
 ------
+This website serves as Rabbi Carmy's personal blog. Stay Tuned!
+
+
 
