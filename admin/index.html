@@ -565,6 +565,7 @@
     async function confirmDelete() {
       if (!postToDelete) return;
 
+      const { path, title } = postToDelete;
       const statusDiv = document.getElementById('postsStatus');
       closeDeleteModal();
       statusDiv.innerHTML = '<div class="status info">Deleting post...</div>';
@@ -572,7 +573,7 @@
       try {
         // Get file SHA
         const getResponse = await fetch(
-          `https://api.github.com/repos/${CONFIG.repo}/contents/${postToDelete.path}`,
+          `https://api.github.com/repos/${CONFIG.repo}/contents/${path}`,
           {
             headers: {
               'Authorization': `token ${accessToken}`,
@@ -587,7 +588,7 @@
 
         // Delete file
         const deleteResponse = await fetch(
-          `https://api.github.com/repos/${CONFIG.repo}/contents/${postToDelete.path}`,
+          `https://api.github.com/repos/${CONFIG.repo}/contents/${path}`,
           {
             method: 'DELETE',
             headers: {
@@ -596,7 +597,7 @@
               'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-              message: `Delete blog post: ${postToDelete.title}`,
+              message: `Delete blog post: ${title}`,
               sha: fileData.sha,
               branch: CONFIG.branch
             })
