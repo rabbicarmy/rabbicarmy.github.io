@@ -279,6 +279,8 @@
 
   <script src="https://unpkg.com/easymde/dist/easymde.min.js"></script>
   <script>
+    console.log('Admin version: 5');
+
     const CONFIG = {
       repo: 'rabbicarmy/rabbicarmy.github.io',
       branch: 'master'
@@ -558,8 +560,12 @@
     }
 
     function closeDeleteModal() {
+      console.log('closeDeleteModal called');
       postToDelete = null;
-      document.getElementById('deleteModal').classList.add('hidden');
+      const modal = document.getElementById('deleteModal');
+      console.log('modal element:', modal);
+      modal.classList.add('hidden');
+      console.log('modal classes after:', modal.classList);
     }
 
     async function confirmDelete() {
