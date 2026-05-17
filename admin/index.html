@@ -46,7 +46,7 @@
       outline: none;
       border-color: #0066cc;
     }
-    button:not(.editor-toolbar button) {
+    button:not(.editor-toolbar button):not(.tab) {
       background: #0066cc;
       color: white;
       border: none;
@@ -61,8 +61,8 @@
       color: #333 !important;
       background: transparent !important;
     }
-    button:not(.editor-toolbar button):hover { background: #0052a3; }
-    button:not(.editor-toolbar button):disabled { background: #ccc; cursor: not-allowed; }
+    button:not(.editor-toolbar button):not(.tab):hover { background: #0052a3; }
+    button:not(.editor-toolbar button):not(.tab):disabled { background: #ccc; cursor: not-allowed; }
     button.secondary { background: #666; }
     button.secondary:hover { background: #555; }
     button.danger { background: #cc3333; }
