@@ -452,27 +452,31 @@
           return;
         }
 
-        listDiv.innerHTML = `
-          <ul class="post-list">
-            ${posts.map(post => {
-              const match = post.name.match(/^(\d{4}-\d{2}-\d{2})-(.+)\.md$/);
-              const date = match ? match[1] : 'Unknown date';
-              const slug = match ? match[2].replace(/-/g, ' ') : post.name;
-              return `
-                <li class="post-item">
-                  <div class="post-info">
-                    <div class="post-title">${slug}</div>
-                    <div class="post-date">${date}</div>
-                  </div>
-                  <div class="post-actions">
-                    <button class="small" onclick="editPost('${post.path}')">Edit</button>
-                    <button class="small danger" onclick="deletePost('${post.path}', '${slug}')">Delete</button>
-                  </div>
-                </li>
-              `;
-            }).join('')}
-          </ul>
-        `;
+        listDiv.innerHTML = `<ul class="post-list" id="postsListUl"></ul>`;
+        const ul = document.getElementById('postsListUl');
+
+        posts.forEach((post, index) => {
+          const match = post.name.match(/^(\d{4}-\d{2}-\d{2})-(.+)\.md$/);
+          const date = match ? match[1] : 'Unknown date';
+          const slug = match ? match[2].replace(/-/g, ' ') : post.name;
+
+          const li = document.createElement('li');
+          li.className = 'post-item';
+          li.innerHTML = `
+            <div class="post-info">
+              <div class="post-title">${slug}</div>
+              <div class="post-date">${date}</div>
+            </div>
+            <div class="post-actions">
+              <button class="small edit-btn">Edit</button>
+              <button class="small danger delete-btn">Delete</button>
+            </div>
+          `;
+
+          li.querySelector('.edit-btn').addEventListener('click', () => editPost(post.path));
+          li.querySelector('.delete-btn').addEventListener('click', () => deletePost(post.path, slug));
+          ul.appendChild(li);
+        });
       } catch (error) {
         listDiv.innerHTML = `<div class="status error">${error.message}</div>`;
       }
