@@ -163,6 +163,10 @@
       font-size: 14px;
       color: #666;
     }
+    .post-item > div:last-child {
+      display: flex;
+      gap: 5px;
+    }
     .loading {
       text-align: center;
       padding: 40px;
@@ -424,10 +428,12 @@
             </div>
             <div>
               <button class="small edit-btn">Edit</button>
+              <button class="small danger delete-btn">Delete</button>
             </div>
           `;
 
           li.querySelector('.edit-btn').addEventListener('click', () => editPost(post.path));
+          li.querySelector('.delete-btn').addEventListener('click', () => deletePost(post.path, slug));
           ul.appendChild(li);
         });
       } catch (error) {
@@ -502,6 +508,60 @@
       document.getElementById('editingNotice').classList.add('hidden');
       document.getElementById('publishBtn').textContent = 'Publish Post';
       document.getElementById('editorStatus').innerHTML = '';
+    }
+
+    async function deletePost(path, title) {
+      if (!confirm(`Delete "${title}"?\n\nThis cannot be undone.`)) {
+        return;
+      }
+
+      const statusDiv = document.getElementById('postsStatus');
+      statusDiv.innerHTML = '<div class="status info">Deleting post...</div>';
+
+      try {
+        // Get file SHA first
+        const getResponse = await fetch(
+          `https://api.github.com/repos/${CONFIG.repo}/contents/${path}`,
+          {
+            headers: {
+              'Authorization': `token ${accessToken}`,
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          }
+        );
+
+        if (!getResponse.ok) throw new Error('Failed to find post');
+
+        const fileData = await getResponse.json();
+
+        // Delete the file
+        const deleteResponse = await fetch(
+          `https://api.github.com/repos/${CONFIG.repo}/contents/${path}`,
+          {
+            method: 'DELETE',
+            headers: {
+              'Authorization': `token ${accessToken}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              message: `Delete blog post: ${title}`,
+              sha: fileData.sha,
+              branch: CONFIG.branch
+            })
+          }
+        );
+
+        if (!deleteResponse.ok) {
+          const error = await deleteResponse.json();
+          throw new Error(error.message || 'Failed to delete post');
+        }
+
+        statusDiv.innerHTML = '<div class="status success">Post deleted successfully!</div>';
+        loadPosts();
+      } catch (error) {
+        statusDiv.innerHTML = `<div class="status error">Error: ${error.message}</div>`;
+      }
     }
 
     async function publishPost() {
