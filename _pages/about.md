@@ -26,7 +26,7 @@ Rabbi Carmy has also authored many articles for [First Things](https://www.first
 
 YU Torah
 ------
-Many of Rabbi Carmy's lectures can be found on [YUTorah](https://www.yutorah.org/teachers/Rabbi-Shalom-Carmy)
+Some of Rabbi Carmy's lectures can be found on [YUTorah](https://www.yutorah.org/teachers/Rabbi-Shalom-Carmy)
 
 Podcasts
 ------
