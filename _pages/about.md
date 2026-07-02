@@ -30,7 +30,7 @@ Some of Rabbi Carmy's lectures can be found on [YUTorah](https://www.yutorah.org
 
 Podcasts
 ------
-Rabbi Carmy did a podcast with [18Forty](https://18forty.org/podcast/rabbi-shalom-carmy-how-i-ground-my-faith/), and another with [Tikvah](https://tikvahfund.org/library/podcast-shalom-carmy-on-jewish-understanding-of-human-suffering/).
+Rabbi Carmy has done several podcasts, including with [18Forty](https://18forty.org/podcast/rabbi-shalom-carmy-how-i-ground-my-faith/), [Tikvah](https://tikvahfund.org/library/podcast-shalom-carmy-on-jewish-understanding-of-human-suffering/), and [Desert Island Torah](https://podcasts.apple.com/us/podcast/ep-116-with-rav-shalom-carmy/id1633459107?i=1000624672534).
 
 Personal Website and Blog
 ------
