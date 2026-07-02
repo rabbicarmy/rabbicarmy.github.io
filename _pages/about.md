@@ -18,7 +18,7 @@ Online Resources
 
 Tradition
 ------
-Rabbi Carmy has written many articles for [Tradition](https://traditiononline.org/), many of which have been collected into the ebook [Divrei Shalom](https://traditiononline.org/wp-content/uploads/2021/12/DivreiShalom2019a.pdf), and all of which can be found in the [Tradition archives](https://traditiononline.org/archives/?_sft_author=shalom-carmy).
+Rabbi Carmy has written many articles for [Tradition](https://traditiononline.org/), as well as editor's notes during his tenure as editor. All of these, except for the last, have been collected into the ebook [Divrei Shalom](https://traditiononline.org/wp-content/uploads/2021/12/DivreiShalom2019a.pdf), and all of which can be found in the [Tradition archives](https://traditiononline.org/archives/?_sft_author=shalom-carmy).
 
 Other Articles Available Online
 ------
